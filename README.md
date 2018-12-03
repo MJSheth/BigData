@@ -23,8 +23,8 @@ Following are things the application should do after reading.
  
  4.Create another spark application(batch application) which will be triggred for every 1 hour and read the above files acculmalated for an hour and convert them into following schema and store it as one orc(Optimized Row Columnar) file.
  
- Timedate|Country|Alltweetsinaarray
- 2018-04-18-13:11|India|('hi all','hello scala')
- 2018-04-18-13:12|China|('hello spark','hello hbase')
- 2018-04-18-13:12|Mexico|('hello hive')
- 2018-04-18-13:11|India|('hello python')
+                     Timedate|Country|Alltweetsinaarray
+                     2018-04-18-13:11|India|('hi all','hello scala')
+                     2018-04-18-13:12|China|('hello spark','hello hbase')
+                     2018-04-18-13:12|Mexico|('hello hive')
+                     2018-04-18-13:11|India|('hello python')
